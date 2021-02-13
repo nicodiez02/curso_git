@@ -1,0 +1,90 @@
+
+/*selector universal*/
+*{
+    font-family: 'Redressed', cursive;
+    
+}
+
+/*selector de tipo*/
+h1{
+    color: rgb(15, 139, 255);
+}
+
+/* selector de clase */
+.dou{
+    color: blueviolet;
+}
+
+/*selector de id*/
+#idnazi{
+    color:rgb(255, 0, 179)
+}
+
+/*selector por atributo*/
+[rancio = "xd"]{
+    color:rgb(15, 255, 15)
+}
+
+/*selector descendiente*/
+h3 p{
+    color:rgb(255, 217, 0)
+}
+
+.h3-class p{
+    color:rgb(250, 126, 194)
+}
+
+/*selector pseudo clase*/
+.h3-class b:hover{
+    color: rgb(37, 255, 164);
+}
+
+.form{
+    font-size: 3px;
+}
+
+
+.form__input{
+    color:blue;
+    font-size: 3em;
+}
+
+
+.form__input--active{
+    color:aqua;
+}
+
+.cont__h2{
+    font-size: 30px;
+    background-color: rgba(176, 204, 198, 0.678);
+    font-weight: 700;
+    width: 50vw;
+    /*height: 50vh;*/
+}
+
+#regio{
+    display:inline;
+    background-color: rgb(238, 27, 27);
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 15px 0 black;
+}
+
+.caja1{
+    width: 200px;
+    height: 200px;
+    background:red;
+    display: inline-block;
+    border: 5px yellow
+}
+
+.caja2{
+    width: 200px;
+    height: 200px;
+    background: red;
+    display: inline-block;
+}
+
+input ::placeholder{
+    color: brown;
+}
